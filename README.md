@@ -1,1 +1,5 @@
-# Mashup-Project-Using-Python
+# Mashup-Project-using-Python
+# Description
+This project is a Streamlit application designed to facilitate the downloading, processing, and sharing of audio from YouTube videos. Users can input multiple YouTube URLs, after which the application utilizes the yt-dlp library to download the audio in high-quality MP3 format. The downloaded audio files are then trimmed to a specified duration using the moviepy library, allowing for efficient handling of content. Following the trimming process, the application merges all trimmed audio clips into a single MP3 file. To enhance usability, the merged audio is zipped into a compressed file for easy sharing. Finally, users can send this zipped audio file via email by providing recipient details and their own email credentials, with SMTP functionality integrated into the application. This project effectively combines various Python libraries to create a seamless user experience for managing YouTube audio content.
+# Methodology
+![Screenshot 2024-10-22 204931](https://github.com/user-attachments/assets/07fb19e4-c5d5-4b59-9453-d0db393a0b05)
